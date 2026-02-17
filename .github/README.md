@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-billingconductor`](https://www.npmjs.com/package/@aws-sdk/client-billingconductor/v/3.598.0).
+[`@aws-sdk/client-billingconductor`](https://www.npmjs.com/package/@aws-sdk/client-billingconductor/v/3.600.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.598.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.600.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-EN76eEqhc1eJMvoLiLKlShtQGEz82pzHNk0CQ0h1Tnr8jYlhm9zQ1AE5O79tfAZK
+sha384-ulueaEVcutkRK9psxzPbc943zAkS91CC14qsIgdCRjPfTRx9qg3ZEXH1f131J9Nf
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-billingconductor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.598.0/index.min.mjs"
+            "@aws-sdk/client-billingconductor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.600.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.598.0/index.min.mjs": "sha384-EN76eEqhc1eJMvoLiLKlShtQGEz82pzHNk0CQ0h1Tnr8jYlhm9zQ1AE5O79tfAZK"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.600.0/index.min.mjs": "sha384-ulueaEVcutkRK9psxzPbc943zAkS91CC14qsIgdCRjPfTRx9qg3ZEXH1f131J9Nf"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-billingconductor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.598.0/index.min.mjs"
+                        "@aws-sdk/client-billingconductor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.600.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.598.0/index.min.mjs": "sha384-EN76eEqhc1eJMvoLiLKlShtQGEz82pzHNk0CQ0h1Tnr8jYlhm9zQ1AE5O79tfAZK"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-billingconductor@3.600.0/index.min.mjs": "sha384-ulueaEVcutkRK9psxzPbc943zAkS91CC14qsIgdCRjPfTRx9qg3ZEXH1f131J9Nf"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.598.0`)
+* Always pin to a specific version (`@3.600.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-billingconductor/blob/refs/tags/3.598.0/LICENSE
+https://github.com/cloud-sdk-builds/client-billingconductor/blob/refs/tags/3.600.0/LICENSE
 ```
 
 ---
